@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome cdn addded -->
+    <script
+      src="https://kit.fontawesome.com/a7da6ce3ef.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- bootstrap added -->
     <link rel="stylesheet" href="code/bootstrap.css" />
     <!-- css added -->
@@ -11,11 +18,206 @@
     <title>Revel</title>
   </head>
   <body>
-    
- 
-    
-    
-    
+    <!-- header start -->
+    <header class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <h1 class="display-4 fw-bold text-primary">
+            Reve<span class="text-secondary">al</span>
+          </h1>
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- carusol start -->
+    <section>
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="bg-image1 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-center">
+                <h1 class="fw-bold text-primary display-4">
+                  Making
+                  <span class="text-secondary text-decoration-underline"
+                    >your ideas</span
+                  >
+                  <br />happen!
+                </h1>
+                <p class="text-secondary">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Cupiditate, recusandae?
+                </p>
+
+                <button class="btn btn-primary">Get started</button>
+                <button class="btn btn-secondary">Our Projects</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-image2">
+              <div
+                class="bg-image1 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="fw-bold text-primary display-4">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >your ideas</span
+                    >
+                    <br />happen!
+                  </h1>
+                  <p class="text-secondary">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Cupiditate, recusandae?
+                  </p>
+
+                  <button class="btn btn-primary">Get started</button>
+                  <button class="btn btn-secondary">Our Projects</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-image3">
+              <div
+                class="bg-image1 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="fw-bold text-primary display-4">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >your ideas</span
+                    >
+                    <br />happen!
+                  </h1>
+                  <p class="text-secondary">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Cupiditate, recusandae?
+                  </p>
+
+                  <button class="btn btn-primary">Get started</button>
+                  <button class="btn btn-secondary">Our Projects</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- carusol end -->
+
+    <!-- who we are section  START -->
+
+    <section class="container my-5 py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img class="w-100" src="resource/image/about-img.jpg" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h1 class="text-primary">Who we are</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            pariatur minima dolorem unde odio sit nobis quam vel optio
+            reiciendis.
+          </p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-badge-check"></i> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque pariatur minima dolorem unde odio sit nobis quam vel
+              optio reiciendis.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- who we are section  end -->
+
+    <!-- services section start -->
+
+    <section class="container" >
+        <h1 class=" fw-bold text-primary">Services</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, deleniti tenetur id commodi suscipit maxime fuga numquam earum nobis tempore harum officia. Architecto in labore culpa id officiis explicabo quisquam sunt dolorum esse. Porro voluptatem similique et deserunt odio minima. </p>
+
+            
+
+
+
+
+
+
+    </section>
+
     <!-- bootsrap js addded -->
     <script src="code/bootstrap.js"></script>
   </body>
